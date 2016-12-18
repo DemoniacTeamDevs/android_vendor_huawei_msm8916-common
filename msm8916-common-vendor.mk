@@ -16,7 +16,7 @@
 
 # vendor camera
 PRODUCT_COPY_FILES += \
-   vendor/huawei/msm8916-common/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+   vendor/huawei/msm8916-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/msm8916-common/proprietary/bin/irsc_util:system/bin/irsc_util \
