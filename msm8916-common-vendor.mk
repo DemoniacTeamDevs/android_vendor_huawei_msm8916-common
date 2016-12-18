@@ -96,6 +96,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libactuator_imx219_liteon.so:system/vendor/lib/libactuator_imx219_liteon.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libactuator_imx219_ofilm_camcorder.so:system/vendor/lib/libactuator_imx219_ofilm_camcorder.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libactuator_imx219_ofilm_camera.so:system/vendor/lib/libactuator_imx219_ofilm_camera.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libactuator_ov5670_ofilm_ohw5a03.so:system/vendor/lib/libactuator_ov5670_ofilm_ohw5a03.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libactuator_ov5670_ofilm_ohw5a03_camcorder.so:system/vendor/lib/libactuator_ov5670_ofilm_ohw5a03_camcorder.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libactuator_ov5670_ofilm_ohw5a03_camera.so:system/vendor/lib/libactuator_ov5670_ofilm_ohw5a03_camera.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libactuator_ov13850_ofilm_ohwba03.so:system/vendor/lib/libactuator_ov13850_ofilm_ohwba03.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libactuator_ov13850_ofilm_ohwba03_camcorder.so:system/vendor/lib/libactuator_ov13850_ofilm_ohwba03_camcorder.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libactuator_ov13850_ofilm_ohwba03_camera.so:system/vendor/lib/libactuator_ov13850_ofilm_ohwba03_camera.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libactuator_imx219_ofilm.so:system/vendor/lib/libactuator_imx219_ofilm.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libactuator_imx328_sunny_p13n10a_camcorder.so:system/vendor/lib/libactuator_imx328_sunny_p13n10a_camcorder.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libactuator_imx328_sunny_p13n10a_camera.so:system/vendor/lib/libactuator_imx328_sunny_p13n10a_camera.so \
@@ -219,6 +225,24 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov2680_ofilm_fe16_y550_default_video.so:system/vendor/lib/libchromatix_ov2680_ofilm_fe16_y550_default_video.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov2680_ofilm_fe16_y550_preview.so:system/vendor/lib/libchromatix_ov2680_ofilm_fe16_y550_preview.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov2680_ofilm_fe16_y550_snapshot.so:system/vendor/lib/libchromatix_ov2680_ofilm_fe16_y550_snapshot.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5648_ofilm_ohw5f03_common.so:system/vendor/lib/libchromatix_ov5648_ofilm_ohw5f03_common.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5648_ofilm_ohw5f03_default_video.so:system/vendor/lib/libchromatix_ov5648_ofilm_ohw5f03_default_video.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5648_ofilm_ohw5f03_preview.so:system/vendor/lib/libchromatix_ov5648_ofilm_ohw5f03_preview.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5648_ofilm_ohw5f03_snapshot.so:system/vendor/lib/libchromatix_ov5648_ofilm_ohw5f03_snapshot.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_common.so:system/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_common.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_default_video.so:system/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_default_video.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_hfr_60fps.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_hfr_90fps.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_hfr_120fps.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_liveshot.so:system/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_liveshot.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_preview.so:system/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_preview.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_snapshot.so:system/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_snapshot.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_video_hd.so:system/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_video_hd.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_zsl.so:system/vendor/lib/libchromatix_ov5670_ofilm_ohw5a03_zsl.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov13850_ofilm_ohwba03_common.so:system/vendor/lib/libchromatix_ov13850_ofilm_ohwba03_common.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov13850_ofilm_ohwba03_default_video.so:system/vendor/lib/libchromatix_ov13850_ofilm_ohwba03_default_video.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov13850_ofilm_ohwba03_preview.so:system/vendor/lib/libchromatix_ov13850_ofilm_ohwba03_preview.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov13850_ofilm_ohwba03_snapshot.so:system/vendor/lib/libchromatix_ov13850_ofilm_ohwba03_snapshot.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov2680_preview.so:system/vendor/lib/libchromatix_ov2680_preview.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov2680_snapshot.so:system/vendor/lib/libchromatix_ov2680_snapshot.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libchromatix_ov2720_common.so:system/vendor/lib/libchromatix_ov2720_common.so \
@@ -472,6 +496,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libmmcamera_ov2680_5987fhq.so:system/vendor/lib/libmmcamera_ov2680_5987fhq.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libmmcamera_ov2680_byd_bm2920b.so:system/vendor/lib/libmmcamera_ov2680_byd_bm2920b.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libmmcamera_ov2680_ofilm_fe16.so:system/vendor/lib/libmmcamera_ov2680_ofilm_fe16.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libmmcamera_ov5648_ofilm_ohw5f03.so:system/vendor/lib/libmmcamera_ov5648_ofilm_ohw5f03.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libmmcamera_ov5670_ofilm_ohw5a03.so:system/vendor/lib/libmmcamera_ov5670_ofilm_ohw5a03.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/lib/libmmcamera_ov13850_ofilm_ohwba03.so:system/vendor/lib/libmmcamera_ov13850_ofilm_ohwba03.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libmmcamera_ov2680_skuhf.so:system/vendor/lib/libmmcamera_ov2680_skuhf.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libmmcamera_ov2680.so:system/vendor/lib/libmmcamera_ov2680.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libmmcamera_ov2720.so:system/vendor/lib/libmmcamera_ov2720.so \
