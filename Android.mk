@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter hwY635 y550,$(TARGET_DEVICE)),)
+ifneq ($(filter che10 cherry,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhuawei_secure
@@ -70,6 +70,7 @@ LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
+
 
 ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
